@@ -1,0 +1,234 @@
+html{background-color: black ;}
+
+
+@font-face {font-family: Taviraj; src: url(Taviraj-Regular.ttf)}
+@font-face {font-family: Vouge; src: url(Vogue.ttf)}
+@font-face {font-family: Kiyana; src: url(KiyanaDisplay-UltraLight.otf)}
+
+
+
+h1{font-family: Vouge;
+   font-size: 64px;
+  }
+
+h3{
+    font-family:Vouge;
+    font-variant: small-caps;
+    font-size: 24px;
+  }
+
+h4{font-family: Vouge;}  
+
+h2{
+    font-family: Taviraj, Times, serif;
+}
+
+.containerpage{
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color:white;
+  padding-top: 5%;
+}
+
+#nav {
+  width:96.6%;
+  margin:0 auto;
+  list-style:none;
+  background-color:#333333;
+  overflow: hidden;
+  }
+
+  #nav li {
+  display:inline-block;
+  }
+
+ #nav a {
+  display:inline-block;
+  color: white;
+  text-align: center;
+  padding: 15px 33px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+  font-variant: small-caps
+  }
+
+#nav a:hover{
+  background-color: black;
+  color: white;
+}
+  
+ * {
+  box-sizing: content-box;
+} 
+
+
+body {
+  font-family: Helvetica, sans-serif;
+  text-align: center;
+  display:flex; 
+  flex-direction:column; 
+  position: relative;
+  }
+
+ p{
+  font-family: Arial, sans-serif;
+  font-variant: small-caps;
+ }
+
+ .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ 
+
+.column1{
+  float: left;
+  width: 65%;
+  padding: 2%;
+}
+ 
+
+.imgc1{
+  max-height: 500px ;
+  width:  80%;
+  border: 1px solid black;
+}
+
+ 
+.containertext{
+  text-align: left;
+  padding-bottom: 10%;
+  max-height: 500px ;
+  width:  80%;
+  padding-left: 10%;
+  font-variant: normal;
+  font-family: Kiyana;
+  font-weight: bold;
+}   
+
+.column2{
+  float: left;
+  width: 25%;
+  padding-top: 12%;
+  padding-bottom: 15%;
+}
+   
+
+.imgc2{
+  max-height: 200px;
+  width: 80%;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+.containerimgc2{
+  padding-top: 103%;
+  padding-bottom: 125%;
+  max-height: 190px;
+  width: 100%;
+}
+
+.containerimgc2-1{
+  padding-top: 135%;
+  padding-bottom: 145%;
+  max-height: 190px;
+  width: 100%;
+}     
+      
+.containerft{
+         
+  position: relative;
+  text-align: center;
+  background-color: #f5f5f0;
+  width: 100%;
+}
+
+hr{
+  border: none;
+  height: 4px;
+  color: black;
+  background-color:white;
+}
+
+.formcontainerft{
+  border: 3px solid #f1f1f1;
+  background-color:#f5f5f0;
+  width: 95%;
+}
+
+.maincolumnformft {
+  float: left;
+  width: 47%;
+  padding: 5px; 
+}
+
+form {
+  display: block;
+}
+
+.containerformft{
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+ 
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+   
+input[type=reset] {
+  position: relative;
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+input[type=reset]:hover {
+  opacity: 0.8;
+}
+
+
+
+textarea{
+  border: 1px solid #ccc;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+ }
+
+ @media only screen and (max-width:900px) {
+
+  .containerimgc2{
+    padding-top: 270%;
+    padding-bottom: 98%;
+    max-height: 190px;
+    width: 100%;
+  }
+  
+  .containerimgc2-1{
+    padding-top: 319%;
+    padding-bottom: 80%;
+    max-height: 190px;
+    width: 100%;
+  }     
+} 
+
+
+   
+    
+      
+    
+      
+
+      
